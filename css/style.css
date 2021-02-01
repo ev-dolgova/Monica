@@ -1,0 +1,76 @@
+/* Перед каждый крупным блоком сделать отступ по вертикали */
+div.row {
+	margin-top: 1em;
+}
+
+/* Названия разделов сделать пожирнее */
+h3.text-center {
+	font-weight: 600;
+}
+
+/* В блоке "Добро пожаловать" включить выравнивание по вертикали */
+div.monica-welcome {
+	display: flex;
+	align-items: center;
+}
+
+/* , а логотип дополнительно выровнять по горизонтали. */
+div.monica-welcome div.logo-placeholder {
+	text-align: center;
+}
+
+div.monica-services {
+
+}
+
+/* В карточках с примерами работ отцентровать текст */
+div.monica-examples h5.card-header,
+div.monica-examples div.card-footer {
+	text-align: center;
+}
+/* , имя питомца сделать пожирнее */
+.pet-name {
+	font-weight: 570;
+}
+/* , описание работ выровнять по ширине */
+div.monica-examples p.card-text {
+	text-align: justify;
+}
+/* , вписать няшные картинки с животными. */
+div.monica-examples img {
+	max-width: 100%;
+}
+
+/* Ограничить высоту карусели с фотографиями,
+ * не растягивая изображения */
+div.monica-examples div.monica-examples-carousel img {
+	object-fit: cover;
+	max-height: 500px;
+}
+/* , выделить текст на изображениях карусели */
+div.monica-examples div.carousel-caption {
+	background: rgba(0, 0, 0, 0.2);
+	border-radius: 2em;
+	padding-left: 0.75em;
+	padding-right: 0.75em;
+}
+div.monica-examples div.carousel-caption {
+	text-shadow: 1px 1px black;
+}
+#monica-examples-carousel-container h4 {
+	color: #fff;
+}
+
+/* Центровать содержимое карточки с QR-кодом */
+div.monica-address div.card {
+	text-align: center;
+}
+
+/* Уменьшить шрифт в подвале */
+div.monica-footer p.comment {
+	font-size: 11px;
+}
+/* , приподнять сам подвал */
+div.monica-footer {
+	margin-bottom: 1em;
+}
